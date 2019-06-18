@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="alphabet">Chữ và số</string>
+    <string name="cancel">Hủy</string>
+    <string name="category">Thể Loại</string>
+    <string name="exit">Thoát</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="lyrics">Lời bài hát</string>
+    <string name="message_network_fail">Xin kiểm tra lại kết nối mạng…</string>
+    <string name="name_music">Tên bài hát</string>
+    <string name="network_fail">Kết nối bị lỗi :(</string>
+    <string name="player_error"></string>
+    <string name="question_word">Đây là gì?</string>
+    <string name="titleGame">Trò chơi</string>
+    <string name="titleSong">Bài hát</string>
+    <string name="title_sound">Âm thanh</string>
+    <string name="tittle_setting">Cài đặt</string>
+    <string name="vocabulary">Từ Vựng</string>
+</resources>

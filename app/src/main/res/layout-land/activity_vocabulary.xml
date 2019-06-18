@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tuvung"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+        android:id="@+id/imgb_home"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/home"
+        android:onClick="BackHome" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="75dp"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/previewtuvung" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="75dp"
+        android:layout_height="86dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24.5dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/nexttuvung" />
+
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/txtta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgv"
+        android:layout_toLeftOf="@+id/imgv"
+        android:layout_marginTop="@dimen/x10dp"
+        android:layout_marginRight="-45dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgv"
+        android:layout_toRightOf="@id/imgv"
+        android:layout_marginTop="@dimen/x10dp"
+        android:layout_marginLeft="-15dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

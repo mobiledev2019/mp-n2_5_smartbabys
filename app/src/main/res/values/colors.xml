@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="turquoise">#1ABC9C</color>
+    <color name="green_sea">#16A085</color>
+    <color name="silver">#BDC3C7</color>
+    <color name="wet_asphalt">#34495E</color>
+    <color name="carrot">#E67E22</color>
+    <color name="peter_river">#3498DB</color>
+    <color name="belize_hole">#2980B9</color>
+    <color name="emerald">#2ECC71</color>
+    <color name="nephritis">#27AE60</color>
+    <color name="pomegranate">#C0392B</color>
+    <color name="lyrics_dark">#87534949</color>
+    <color name="list_music_dark">#7f568746</color>
+    <color name="lime_400">#D4E157</color>
+    <color name="light_blue_400">#29B6F6</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#efcfd6</color>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_music"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.nhaarman.listviewanimations.itemmanipulation.dragdrop.GripView
+        android:id="@+id/list_row_draganddrop_touchview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:color="@color/colorPrimary"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/thumbnail_music"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_music" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/carrot"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/category"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/title_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/category"
+                android:layout_marginStart="7sp"
+                android:layout_marginLeft="7sp"
+                android:layout_toEndOf="@+id/category"
+                android:layout_toRightOf="@+id/category"
+                android:text="@string/category"
+                android:textColor="@color/lime_400"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imgCurrentPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_equalizer"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

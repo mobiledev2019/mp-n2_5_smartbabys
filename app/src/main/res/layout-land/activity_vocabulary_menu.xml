@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menutuvung"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgDongVat"-->
+    <!--android:layout_width="170dp"-->
+    <!--android:layout_height="142dp"-->
+    <!--android:layout_above="@+id/imgHinhHoc"-->
+    <!--android:layout_marginLeft="65dp"-->
+    <!--android:layout_marginBottom="-17dp"-->
+    <!--android:background="@drawable/btn_dongvat" />-->
+
+    <ImageView
+        android:id="@+id/imgHoaQua"
+        android:layout_width="170dp"
+        android:layout_height="106dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="@dimen/x50dp"
+        android:layout_toRightOf="@+id/imgHinhHoc"
+        android:background="@drawable/button_hoaqua" />
+
+    <ImageView
+        android:id="@+id/imgHinhHoc"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_hinhhoc" />
+
+    <ImageView
+        android:id="@+id/imgMauSac"
+        android:layout_width="170dp"
+        android:layout_height="126dp"
+        android:layout_below="@id/imgThucAn"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/x30dp"
+        android:layout_marginRight="@dimen/x20dp"
+        android:background="@drawable/button_mausac" />
+
+    <ImageView
+        android:id="@+id/imgThoiTiet"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/imgHoaQua"
+        android:layout_marginLeft="@dimen/x120dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imgHinhHoc"
+        android:background="@drawable/button_thoitiet" />
+
+    <ImageView
+        android:id="@+id/imgThucAn"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/x50dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/button_doan" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="308.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="20.0dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dialog_background"
+                android:layout_width="308.0dip"
+                android:layout_height="220.0dip"
+                android:background="@drawable/mango_qua_xoai"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_close"
+                android:layout_width="@dimen/x24dp"
+                android:layout_height="@dimen/x24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/x8dp"
+                android:layout_marginRight="@dimen/x8dp"
+                android:src="@drawable/sm_dialog_close_icon" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/share_tv"
+            android:layout_width="232.0dip"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/x5dp">
+
+            <TextView
+                android:id="@+id/txt_dialog_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mango"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txt_dialog_content_vietnam"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Qủa xoài"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_play_now"
+            android:layout_width="252.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginTop="23.0dip"
+            android:background="@drawable/bg_color_03"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_play_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Let's go"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

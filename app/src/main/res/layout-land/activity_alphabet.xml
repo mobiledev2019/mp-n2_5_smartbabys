@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chu"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageButton
+        android:id="@+id/imgb_home"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/home"
+        android:onClick="BackHome" />
+
+    <ImageView
+        android:id="@+id/imgv_alphabet_chucai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:id="@+id/txt_alphabet_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imgv_alphabet_ex"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="160dp" />
+
+    <Button
+        android:id="@+id/btn_alphabet_prev"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="119dp"
+        android:background="@drawable/previewchuso" />
+
+    <Button
+        android:id="@+id/btn_alphabet_next"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginRight="47dp"
+        android:background="@drawable/nextchuso" />
+
+    <Button
+        android:id="@+id/btn_alphabet_choose_number"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="21dp"
+        android:background="@drawable/chuyenso" />
+
+</RelativeLayout>

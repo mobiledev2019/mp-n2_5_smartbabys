@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="titleVideo" translatable="false">Videos</string>
+    <string name="titleSong">Songs</string>
+    <string name="titleGame">Game</string>
+    <string name="exit">Exit</string>
+    <string name="player_error">Error initializing Youtube player</string>
+    <string name="network_fail">Network Connect Failed !!!</string>
+    <string name="message_network_fail">Please check connect network…</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="question_word">What is this?</string>
+    <string name="category">Category</string>
+    <string name="name_music">Name Music</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="tittle_setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="title_sound">Sound</string>
+    <string name="tip" translatable="false">Chúc mừng bé đã hoàn thành các câu hỏi!</string>
+    <string name="play_again" translatable="false">Play again</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="hoaqua">Hoa quả</string>
+
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Vietnamese</item>
+    </string-array>
+</resources>
